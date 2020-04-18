@@ -41,15 +41,19 @@
                 </ul>
 
                <!-- Right navbar links -->
-                <ul class="navbar-nav ml-auto">
+                 <ul class="navbar-nav ml-auto">
                    <!-- Notifications Dropdown Menu -->
                         <div class="detalle">
                                 @guest
                                 @else
                                <h8> Perfil: {{ Auth::user()->empresa }} <h8>
-                                @endguest
+                                @endguest 
+                                <div class="alert">
+                                <h8> Nivel: <h8> 
+                                <button type="button" class="btn btn-danger">Crítco</button>
                         </div>
-
+                        </div>
+                 
                 </ul>
             </nav>
             <!-- /.navbar -->
