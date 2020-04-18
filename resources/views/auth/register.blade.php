@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.plantilla')
 
 @section('content')
 <div class="container">
@@ -46,7 +46,7 @@
                               <select class="form-control" input id="empresa" type="text" class="form-control @error('empresa') is-invalid @enderror" name="empresa" value="{{ old('empresa') }}" required autocomplete="empresa" autofocus >
                                  <option>Micro Empresa</option>
                                  <option>Pequeña Empresa</option>
-                                 <option>Mediana< Empresa/option>
+                                 <option>Mediana Empresa</option>
                               </select>
                             </div>
                      
