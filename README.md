@@ -33,3 +33,6 @@ Crear controlador (usuarios)
 
 php artisan make:controller NombreController
 
+Creación de Roles y Permisos:
+
+
