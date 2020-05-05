@@ -20,4 +20,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/usuarios', 'UserController@index');
+
+// preoteger vista de usuarios solo para admin
+
+Route::group(['middleware' => ['role:roladmin']], function () {
+    Route::get('/usuarios', 'UserController@index');
+});
+
