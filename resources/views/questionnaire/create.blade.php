@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Create New Questionnaire</div>
+                <div class="card-header">Crear nuevo cuestionario</div>
 
                 <div class="card-body">
                     <form action="/questionnaires" method="post">
