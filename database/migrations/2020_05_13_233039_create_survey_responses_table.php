@@ -14,7 +14,10 @@ class CreateSurveyResponsesTable extends Migration
     public function up()
     {
         Schema::create('survey_responses', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->unsignedBigInteger('survey_id');
+            $table->unsignedBigInteger('question_id');
+            $table->unsignedBigInteger('answer_id');
             $table->timestamps();
         });
     }
