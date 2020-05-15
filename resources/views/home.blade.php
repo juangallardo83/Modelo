@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Cuestionarios</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,12 +14,13 @@
                         </div>
                     @endif
 
-                    <a href="/questionnaires/create" class="btn btn-dark">Create New Questionnaire</a>
+                    <a href="/questionnaires/create" class="btn btn-dark">Crear Cuestionario
+                    </a>
                 </div>
             </div>
 
             <div class="card mt-4">
-                <div class="card-header">My Questionnaires</div>
+                <div class="card-header">Cuestionarios</div>
 
                 <div class="card-body">
                     <ul class="list-group">
@@ -27,14 +28,14 @@
                             <li class="list-group-item">
                                 <a href="{{ $questionnaire->path() }}">{{ $questionnaire->title }}</a>
 
-                                <div class="mt-2">
+                                <!-- <div class="mt-2">
                                     <small class="font-weight-bold">Share URL</small>
                                     <p>
                                         <a href="{{ $questionnaire->publicPath() }}">
                                             {{ $questionnaire->publicPath() }}
                                         </a>
                                     </p>
-                                </div>
+                                </div> -->
                             </li>
                         @endforeach
                     </ul>

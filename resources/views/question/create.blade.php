@@ -31,7 +31,7 @@
 
                                 <div>
                                     <div class="form-group">
-                                        <label for="answer1">Choice 1</label>
+                                        <label for="answer1">Respuesta 1</label>
                                         <input name="answers[][answer]" type="text"
                                                value="{{ old('answers.0.answer') }}"
                                                class="form-control" id="answer1" aria-describedby="choicesHelp" placeholder="Enter Choice 1">
@@ -44,7 +44,7 @@
 
                                 <div>
                                     <div class="form-group">
-                                        <label for="answer2">Choice 2</label>
+                                        <label for="answer2">Respuesta 2</label>
                                         <input name="answers[][answer]" type="text"
                                                value="{{ old('answers.1.answer') }}"
                                                class="form-control" id="answer2" aria-describedby="choicesHelp" placeholder="Enter Choice 2">
@@ -57,7 +57,7 @@
 
                                 <div>
                                     <div class="form-group">
-                                        <label for="answer3">Choice 3</label>
+                                        <label for="answer3">Respuesta 3</label>
                                         <input name="answers[][answer]" type="text"
                                                value="{{ old('answers.2.answer') }}"
                                                class="form-control" id="answer3" aria-describedby="choicesHelp" placeholder="Enter Choice 3">
@@ -70,7 +70,7 @@
 
                                 <div>
                                     <div class="form-group">
-                                        <label for="answer4">Choice 4</label>
+                                        <label for="answer4">Respuesta 4</label>
                                         <input name="answers[][answer]" type="text"
                                                value="{{ old('answers.3.answer') }}"
                                                class="form-control" id="answer4" aria-describedby="choicesHelp" placeholder="Enter Choice 4">
@@ -83,8 +83,10 @@
 
                             </fieldset>
                         </div>
-
+                      
+ 
                         <button type="submit" class="btn btn-primary">Add Question</button>
+
 
                     </form>
                 </div>

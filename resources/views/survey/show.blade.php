@@ -38,7 +38,7 @@
                     </div>
                 @endforeach
 
-                <div class="card mt-4">
+                <!-- <div class="card mt-4">
                     <div class="card-header">Your Information</div>
 
                     <div class="card-body">
@@ -60,10 +60,10 @@
                             @error('email')
                             <small class="text-danger">{{ $message }}</small>
                             @enderror
-                        </div>
+                        </div> -->
 
                         <div>
-                            <button class="btn btn-dark" type="submit">Complete Survey</button>
+                            <button class="btn btn-dark" type="submit">Enviar Cuestionario</button>
                         </div>
                     </div>
                 </div>

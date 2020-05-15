@@ -8,8 +8,8 @@
                 <div class="card-header">{{ $questionnaire->title }}</div>
 
                 <div class="card-body">
-                    <a class="btn btn-dark" href="/questionnaires/{{ $questionnaire->id }}/questions/create">Add New Question</a>
-                    <a class="btn btn-dark" href="/surveys/{{ $questionnaire->id }}-{{ Str::slug($questionnaire->title) }}">Take Survey</a>
+                    <a class="btn btn-dark" href="/questionnaires/{{ $questionnaire->id }}/questions/create">Incorporar Pregunta</a>
+                    <a class="btn btn-dark" href="/surveys/{{ $questionnaire->id }}-{{ Str::slug($questionnaire->title) }}">Responder</a>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@
                             @method('DELETE')
                             @csrf
 
-                            <button type="submit" class="btn btn-sm btn-outline-danger">Delete Question</button>
+                            <button type="submit" class="btn btn-sm btn-outline-danger">Borrar pregunta</button>
                         </form>
                     </div>
                 </div>

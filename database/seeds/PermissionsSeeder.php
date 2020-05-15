@@ -30,6 +30,7 @@ class PermissionsSeeder extends Seeder
 
    // creación permisos  (19 abr)
    Permission::create(['name' => 'create permission']);
+   Permission::create(['name' => 'create questionnaire']);
    Permission::create(['name' => 'read permissions ']);
    Permission::create(['name' => 'update permission']);
    Permission::create(['name' => 'delete permission']);
