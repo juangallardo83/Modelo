@@ -18,13 +18,15 @@ class SurveyController extends Controller
         $data = request()->validate([
             'responses.*.answer_id' => 'required',
             'responses.*.question_id' => 'required',
-            'survey.name' => 'required',
-            'survey.email' => 'required|email',
+            // 'survey.name' => 'required',
+            // 'survey.email' => 'required|email',
         ]);
 
-        $survey = $questionnaire->surveys()->create($data['survey']);
-        $survey->responses()->createMany($data['responses']);
+        // $survey = $questionnaire->surveys()->create($data['survey']);
+        // $survey->responses()->createMany($data['responses']);
 
-        return 'Thank you!';
+        return 'Cuestionario enviado';
+        
+      
     }
 }

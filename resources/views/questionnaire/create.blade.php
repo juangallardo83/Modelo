@@ -22,15 +22,15 @@
                             @enderror
                         </div>
 
-                        <!-- <div class="form-group">
-                            <label for="purpose">Purpose</label>
-                            <input name="purpose" type="text" class="form-control" id="purpose" aria-describedby="purposeHelp" placeholder="Enter Purpose">
-                            <small id="purposeHelp" class="form-text text-muted">Giving a purpose will increase responses.</small>
+                        <div class="form-group">
+                            <label for="purpose">Proposito</label>
+                            <input name="purpose" type="text" class="form-control" id="purpose" aria-describedby="purposeHelp" placeholder="Cual es el propósito">
+                            <small id="purposeHelp" class="form-text text-muted">Ingresa el propósito</small>
 
                             @error('purpose')
                             <small class="text-danger">{{ $message }}</small>
                             @enderror
-                        </div> -->
+                        </div> 
 
                         <button type="submit" class="btn btn-primary">Crear Cuestionario</button>
 

@@ -100,7 +100,7 @@
                             <li class="nav-item">
                                 <a href="/home" class="{{ Request::path() === '/' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="nav-icon fas fa-home"></i>
-                                    <p>Dashboard</p>
+                                    <p>Cuestionario</p>
                                 </a>
                             </li>
 

@@ -39,13 +39,13 @@
                 @endforeach
 
                 <!-- <div class="card mt-4">
-                    <div class="card-header">Your Information</div>
+                    <div class="card-header">Datos del Usuario</div>
 
                     <div class="card-body">
                         <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input name="survey[name]" type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter Name">
-                            <small id="nameHelp" class="form-text text-muted">Hello! What's your name?</small>
+                            <label for="name">Nombre</label>
+                            <input name="survey[name]" type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Nombre">
+                            <small id="nameHelp" class="form-text text-muted">Su nombre</small>
 
                             @error('name')
                                 <small class="text-danger">{{ $message }}</small>
@@ -53,9 +53,9 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input name="survey[email]" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email">
-                            <small id="emailHelp" class="form-text text-muted">Your Email Please!</small>
+                            <label for="email">Email</label>
+                            <input name="survey[email]" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                            <small id="emailHelp" class="form-text text-muted">Email Por favor!</small>
 
                             @error('email')
                             <small class="text-danger">{{ $message }}</small>
